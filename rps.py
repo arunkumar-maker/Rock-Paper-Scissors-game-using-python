@@ -5,6 +5,8 @@ Created on Fri Feb  4 17:41:30 2022
 @author: Arun Kumar
 """
 import random
+name=input("Enter your name: ")
+print("Welcome",name,)
 while True:
     choices=["rock","paper","scissors"]
     computer=random.choice(choices)
@@ -48,64 +50,4 @@ while True:
     if play_again!="y":
         break
 print("Bye...see you later :) ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
